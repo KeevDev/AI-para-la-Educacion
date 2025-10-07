@@ -15,3 +15,107 @@ build/
 .DS_Store
 .vscode/
 .idea/
+
+
+
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === FastAPI / Uvicorn ===
+*.log
+*.pid
+*.sqlite3
+*.db
+*.db-journal
+instance/
+tmp/
+.cache/
+.idea/
+*.pem
+*.crt
+*.key
+
+# === VSCode / JetBrains / Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Environment & Secrets ===
+.env
+.env.*
+!.env.example
+*.secret
+secrets.json
+
+# === Pytest / Coverage ===
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+coverage.xml
+*.cover
+*.py,cover
+.cache
+.pytest_cache/
+
+# === Mypy / Ruff / Pyright ===
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pyright/
+ruff_cache/
+
+# === Jupyter / Notebooks ===
+.ipynb_checkpoints
+
+# === System ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Docker ===
+*.tar
+*.pid
+docker-compose.override.yml
+
+# === Backups ===
+*.bak
+*.old
+*.orig
+*.tmp
+
+# === Logs ===
+logs/
+*.log
